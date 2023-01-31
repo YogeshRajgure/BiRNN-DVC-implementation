@@ -1,7 +1,7 @@
 import logging
 from src.utils import save_json
 import time
-from src import logger
+from src import logging
 from src.constants import *
 from src.components import StageClass
 
