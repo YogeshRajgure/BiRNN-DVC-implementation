@@ -3,18 +3,17 @@ from src.utils import save_json
 import time
 from src import logging
 from src.constants import *
-from src.components import StageClass
+from src.components import DataIngestionPreparation
 
 
-STAGE = "Stage name" ## <<< change stage name 
+STAGE = "Stage 1, Data Ingestion and Preparation" ## <<< change stage name 
 
 # init logger
 
 
-
-
 def main():
-    obj = StageClass()
+    data_ing_prep_obj = DataIngestionPreparation()
+    data_ing_prep_obj.load_data()
 
 
 if __name__ == '__main__':
