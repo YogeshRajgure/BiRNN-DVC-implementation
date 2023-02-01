@@ -14,6 +14,9 @@ STAGE = "Stage 1, Data Ingestion and Preparation" ## <<< change stage name
 def main():
     data_ing_prep_obj = DataIngestionPreparation()
     data_ing_prep_obj.load_data()
+    data_ing_prep_obj.shuffle_and_batch()
+    data_ing_prep_obj.encode_on_training_data()
+    data_ing_prep_obj.save_artifacts()
 
 
 if __name__ == '__main__':
