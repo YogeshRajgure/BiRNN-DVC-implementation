@@ -5,12 +5,12 @@ nav:
   - Home: index.md
   - Page2: page_2.md
 
-site_author: Sunny Bhaveen Chandra
+site_author: Yogesh Rajgure
 site_description: >-
   DESCRIPTION
 
 # Repository
-repo_name: YogeshRajgure/BiRNN-DVC-Implementation
+repo_name: YogeshRajgure/BiRNN-DVC-implementation
 repo_url: https://github.com/YogeshRajgure/BiRNN-DVC-implementation
 
 # Configuration
